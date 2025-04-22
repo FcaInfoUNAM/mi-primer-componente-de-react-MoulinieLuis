@@ -4,9 +4,7 @@ export function Navigation({srcImg,alt}){
         <nav className="navbar">
         <a className="navbar-brand" href="#">
           <img className="nav-item" src={srcImg} width="30" height="30" alt={alt && "NavBar"}/>
-          <a className="nav-item" href="#">FCA</a>
-          <a className="nav-item" href="#">Google</a>
-          <a className="nav-item" href="#">Facebook</a>
+          {items.map(e => <a className="nav-item" href={e.ref}>{e.title}</a>)}
         </a>
       </nav>)
 }

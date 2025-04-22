@@ -1,0 +1,5 @@
+¿De dónde sale la etiqueta Navigation?
+Se define en import { Navigation } from './Navigation'
+
+Significa que hay un archivo llamado Navigation.js, que exporta un componente llamado Navigation.
+
